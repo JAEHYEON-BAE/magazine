@@ -461,10 +461,25 @@ table td {
   padding: 30px 0;
   flex: 1;
   overflow: hidden;
-  background-image: url("images/textures/old-paper-texture-background/6010886.svg");
+  background-image: url("images/textures/old-paper-texture-background/6010880.jpg");
   background-size: cover;
   background-position: center;
-  opacity: 1;
+}
+
+.home-wrapper {
+  display: grid;
+  grid-template-rows: 25% 75%;
+  height: 87.5vh;
+}
+.home-wrapper > .title {
+  grid-row: 1/2;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.home-wrapper > .articles {
+  grid-row: 2/3;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
 /**

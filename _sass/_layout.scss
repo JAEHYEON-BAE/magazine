@@ -243,9 +243,24 @@
   padding: $spacing-unit 0;
   flex: 1;
   overflow: hidden;
-  background-image: url('images/textures/old-paper-texture-background/6010886.svg');
+  background-image: url('images/textures/old-paper-texture-background/6010880.jpg');
   background-size: cover;
   background-position: center;
+}
+.home-wrapper {
+  display: grid;
+  grid-template-rows: 25% 75%;
+  height: calc(7/8) * 100vh;
+  > .title {
+    grid-row: 1/2;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  > .articles {
+    grid-row: 2/3;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
 }
 
 
