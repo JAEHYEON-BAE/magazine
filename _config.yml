@@ -21,7 +21,7 @@
 title: JAEHYEON-BAE
 email: 2021401bjh@gmail.com
 description: 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/magazine" # the subpath of your site, e.g. /blog
 url: "https://jaehyeon-bae.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:title
 
